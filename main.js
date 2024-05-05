@@ -24,7 +24,7 @@ document.getElementById("start-btn").addEventListener ("click", function(){
 		    document.querySelector("h2").innerText = `I numeri sono: ${value1},  ${value2},  ${value3},  ${value4},  ${value5}`;
 		    seconds--;
 	    } else {
-		    document.querySelector("h2").innerText = "Lancio avvenuto";
+		    document.querySelector("h2").innerText = "Ora tocca a te";
 		    clearInterval(timerNumbers);
 	    }
     }, 1000);
